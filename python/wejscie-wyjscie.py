@@ -8,7 +8,7 @@
 
 def main(args):
     a = input ("podaj 1. liczbę: ")
-    b = input ("podaj 2 liczbę: ")
+    b = input ("podaj 2. liczbę: ")
     print(a)
     print(b)
     return 0
