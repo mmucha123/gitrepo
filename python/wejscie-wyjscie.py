@@ -11,6 +11,12 @@ def main(args):
     b = input ("podaj 2. liczbę: ")
     print(a)
     print(b)
+    
+    print ("Suma;", a+b)
+    print ("różnica:", a-b)
+    print ("iloczyn;", a*B)
+    print ("iloraz;", a/b)
+
     return 0
 
 if __name__ == '__main__':
