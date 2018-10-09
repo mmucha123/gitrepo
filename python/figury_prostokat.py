@@ -5,33 +5,40 @@
 #  
 #  Copyright 2018  <>
 
-def prostokat1(a, b, z):
+def prostokat1(a, b, znak):
     for i in range(a):
         for j in range(b):
-            print(z, end='')
+            print(znak, end='')
         print()
     
         
-def prostokat2(a, b, z):
+def prostokat2(a, b, znak, znak2):
     for i in range(a):
         for j in range(b):
-            if j == 0 or j == b - 1:
-                print(z, end='')
+            if j == 0 or j == b - 1 or i == 0 or i == a - 1:
+                print(znak, end='')
             else:
-                print(" ", end=' ')
-            print()
+                print(znak2, end=' ')
+        print()
         
+def choinka(h,znak):
+    for i in range(h):
+        for i in range(h)
+           
 
-
+    
 def main(args):
     a=int(input("podaj 1, liczbę: "))
     b=int(input("podaj 2, liczbę: "))
-    z=(input("podaj znak: "))
-    for i in range(a):
-        for j in range(b):
-            print(z, end='')
-        print()
-    
+    znak=(input("podaj znak: "))
+    znak2=(input("podaj 2znak: "))
+    h=int(input("podaj wysokość: "))
+    prostokat1(a, b, znak)
+    print(" ")
+    print(" ")
+    prostokat2(a, b, znak, znak2)
+    choinka(h,znak)
+    print(" ")
     return 0
 
 if __name__ == '__main__':
