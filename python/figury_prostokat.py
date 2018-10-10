@@ -23,8 +23,12 @@ def prostokat2(a, b, znak, znak2):
         
 def choinka(h,znak):
     for i in range(h):
-        for i in range(h)
-           
+        for j in range(h):
+            if j == 0:
+                print(i*znak, end=' ')
+        print()
+ 
+
 
     
 def main(args):
@@ -39,6 +43,7 @@ def main(args):
     prostokat2(a, b, znak, znak2)
     choinka(h,znak)
     print(" ")
+   
     return 0
 
 if __name__ == '__main__':
