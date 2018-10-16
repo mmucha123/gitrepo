@@ -9,7 +9,7 @@ def potega_it(a, n):
     wynik = 1
     
     for i in range(n):
-        print(wynik)
+        #print(wynik)
         wynik = wynik * a
         
         
@@ -20,8 +20,12 @@ def potega_it(a, n):
 
 
 def main(args):
-    a, n = 3, 4
-    print("Potęga {} do {} wynosi {}".format(a, n, potega_it(a, n)))
+    #a=int(input("Podaj liczbę; "))
+    #n=int(input("Podaj liczbę2; "))
+    #print("Potęga {} do {} wynosi {}".format(a, n, potega_it(a, n)))
+    assert(potega_it(1, 1) == 1)
+    assert(potega_it(4, 4) == 256) 
+    assert(potega_it(1, 0) == 1)
     return 0
 
 if __name__ == '__main__':
