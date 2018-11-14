@@ -13,6 +13,10 @@
 
 using namespace std;
 
+
+
+
+
 int zlicz(char tab[]){
     int i = 0; // indeks znaków w tablicy
     while (tab[i] != '\0') i++;
