@@ -1,0 +1,29 @@
+/*
+ * nieparzyste.cpp
+ * 
+ * Copyright 2019  <>
+ * 
+
+ * 
+ */
+
+
+#include <iostream>
+using namespace std;
+
+
+
+int main(int argc, char **argv)
+{   
+    int n;
+    cout << "Podaj liczbę:" << endl; 
+    cin >> n;
+    for(int i = 1; i < n; i += 2){
+        cout << i << " ";
+        
+        
+        } 
+	
+	return 0;
+}
+
